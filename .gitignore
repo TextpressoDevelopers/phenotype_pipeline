@@ -1,0 +1,8 @@
+*.log
+*.pyc
+.idea/*
+docs/_build/*
+.coverage
+.coveragerc
+venv/*
+generated_descriptions/*
