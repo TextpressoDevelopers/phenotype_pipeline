@@ -17,7 +17,7 @@ Remember to replace the API token and the paper IDs in the following examples.
 `python3 phenotype_pipeline.py -a "{\"token\":\"XXX\", \"query\": {\"categories\": [\"tables and figures (tptbfig:0000001)\",\"genetic perturbation (tpgp:0000001)\",\"phenotypic perturbation (tppp:0000001)\"], \"categories_and_ed\": true, \"accession\": \"WBPaper00000000\", \"type\": \"sentence\", \"corpora\": [\"C. elegans\"]}, \"include_match_sentences\": true}" > output.tsv`
 
 Note that the example uses a TPC query containing a combination of categories on sentences, but any valid TPC query can 
-be passed to the script. See the [API dicumentation](https://textpressoapi.readthedocs.io/en/latest/?badge=latest) for 
+be passed to the script. See the [API documentation](https://textpressoapi.readthedocs.io/en/latest/?badge=latest) for 
 more details on TPC queries.
 
 ### Extract all sentences from a specific paper and save them to TSV file
